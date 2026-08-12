@@ -1,0 +1,7 @@
+runs/
+.openlane/
+*.log
+__pycache__/
+backup/
+reports/full_run_reports/
+reports/final/

@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "top",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 15.0,
+    "PNR_SDC_FILE": "dir::constraints.sdc",
+    "SIGNOFF_SDC_FILE": "dir::constraints.sdc",
+
+    "FP_CORE_UTIL": 40,
+    "PL_TARGET_DENSITY": 0.50,
+
+    "SYNTH_SIZING": true,
+    "MAX_TRANSITION_CONSTRAINT": 0.5,
+
+    "RUN_ANTENNA_REPAIR": true,
+    "GRT_ANTENNA_ITERS": 25,
+    "DIODE_ON_PORTS": "both",
+
+    "RUN_REPAIR_DESIGN": true,
+    "MAX_FANOUT_CONSTRAINT": 8,
+    "DESIGN_REPAIR_MAX_SLEW_PCT": 40,
+    "DESIGN_REPAIR_MAX_CAP_PCT": 40,
+    "RUN_POST_CTS_RESIZER_TIMING": true,
+    "RUN_POST_GRT_RESIZER_TIMING": true
+}
